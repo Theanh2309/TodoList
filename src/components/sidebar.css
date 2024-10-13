@@ -1,0 +1,36 @@
+.sidebar{
+    position: fixed;
+    top: 0;right: 0;bottom: 0;
+    width: 20vw;
+    background-color: #fff;
+    box-shadow: -2px 0 3px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+form{
+    padding: 30px;
+}
+
+.sb-item{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sb-item label{
+    margin-right:10px;
+}
+
+.sb-footer{
+    padding: 10px;
+    border-top: 1px solid #000;
+}
+.sb-footer button{
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
